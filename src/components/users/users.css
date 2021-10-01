@@ -1,0 +1,46 @@
+.users{
+    position: relative;
+}
+.users span{
+    cursor: pointer;
+}
+.users form{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.8rem;
+    width: 40%;
+    margin: 4% 55%;
+}
+.users form input{
+    width: 100%;
+    font-size: 2.8rem;
+}
+.users form button{
+    font-size: 2.8rem;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px;
+    background: linear-gradient(45deg, #37ecba, #72afd3);
+    width: 100%;
+    color: white;
+    padding: 4%;
+    cursor: pointer;
+}
+.users form button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.users div ul, .users div > span  {
+    font-size: 1.8rem;
+    padding: 1%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    height: 60%;
+}
